@@ -16,7 +16,10 @@
     <div class="row justify-content-center">
         <div class="col-md-6 col-offset-3" align="center">
             <form action="">
-            <input type="text">
+            <input placeholder="Email..." name="email" class="form-control"><br>
+            <input placeholder="Password..." name="password" class="form-control" type="password"><br>
+            <input type="submit" value="Log in" class="btn btn-primary">
+            <input type="submit" value="Log in with Google" class="btn btn-danger">
             </form>
         </div>    
     </div>
